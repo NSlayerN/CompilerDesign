@@ -12,8 +12,10 @@ I Explain everything in this File.
 **Note : i configure grammer first because i want to send output files in same directory ** 
 ![ConfigureGrammer](https://github.com/NSlayerN/CompilerDesign/assets/135645486/b21b3934-b932-4b7a-aa0c-b850b8fbb978)
 
-you can see the output of the input.txt file:
-![new grammer](https://github.com/NSlayerN/CompilerDesign/assets/135645486/1e9c029b-7d33-43ab-8542-218e6c319a4f)
+you can see the output(parse tree) of the input.txt :
+
+![s11](https://github.com/NSlayerN/CompilerDesign/assets/135645486/0a0ad79a-427e-4338-baa3-059f3fc08866)
+
 
 5-We have to generate grammer file to get output files like **Listener , Lexer, parser** :
 
