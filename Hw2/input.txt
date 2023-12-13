@@ -1,0 +1,2 @@
+int m=50;
+int flout = m + 5;
