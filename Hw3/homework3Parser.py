@@ -124,6 +124,20 @@ class homework3Parser ( Parser ):
         def getRuleIndex(self):
             return homework3Parser.RULE_start
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterStart" ):
+                listener.enterStart(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitStart" ):
+                listener.exitStart(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitStart" ):
+                return visitor.visitStart(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -198,6 +212,20 @@ class homework3Parser ( Parser ):
         def getRuleIndex(self):
             return homework3Parser.RULE_email
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterEmail" ):
+                listener.enterEmail(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitEmail" ):
+                listener.exitEmail(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitEmail" ):
+                return visitor.visitEmail(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -230,6 +258,20 @@ class homework3Parser ( Parser ):
 
         def getRuleIndex(self):
             return homework3Parser.RULE_nationalNum
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterNationalNum" ):
+                listener.enterNationalNum(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitNationalNum" ):
+                listener.exitNationalNum(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitNationalNum" ):
+                return visitor.visitNationalNum(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -264,6 +306,20 @@ class homework3Parser ( Parser ):
         def getRuleIndex(self):
             return homework3Parser.RULE_postalCode
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterPostalCode" ):
+                listener.enterPostalCode(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitPostalCode" ):
+                listener.exitPostalCode(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitPostalCode" ):
+                return visitor.visitPostalCode(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -296,6 +352,20 @@ class homework3Parser ( Parser ):
 
         def getRuleIndex(self):
             return homework3Parser.RULE_float
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterFloat" ):
+                listener.enterFloat(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitFloat" ):
+                listener.exitFloat(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFloat" ):
+                return visitor.visitFloat(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -330,6 +400,20 @@ class homework3Parser ( Parser ):
         def getRuleIndex(self):
             return homework3Parser.RULE_versionOfSFTW
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterVersionOfSFTW" ):
+                listener.enterVersionOfSFTW(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitVersionOfSFTW" ):
+                listener.exitVersionOfSFTW(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitVersionOfSFTW" ):
+                return visitor.visitVersionOfSFTW(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -362,6 +446,20 @@ class homework3Parser ( Parser ):
 
         def getRuleIndex(self):
             return homework3Parser.RULE_url
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterUrl" ):
+                listener.enterUrl(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitUrl" ):
+                listener.exitUrl(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitUrl" ):
+                return visitor.visitUrl(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
