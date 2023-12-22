@@ -1,6 +1,7 @@
 grammar Quiz;
 
-start Id '=' expr EOF;
+start : Id '=' expr;
+
 // we have to write from lowest precedence to most precedence
 expr : expr '+' term | expr '-' term | term; // minus and plus have same precedence
 
