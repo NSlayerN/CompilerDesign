@@ -35,13 +35,13 @@ def main():
     if result:
         print(password_input)
         if ' ' in token_texts:
-            print("Password is invalid.")
+            print("False")
         else:
-            print("Password is valid.")
+            print("True")
 
     else:
         print(password_input)
-        print("Password is invalid.")
+        print("False")
 
 
 if __name__ == "__main__":
