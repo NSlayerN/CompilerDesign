@@ -14,5 +14,5 @@ False password:
 ![sshot-1](https://github.com/NSlayerN/CompilerDesign/assets/135645486/6369edc2-e847-4051-91c9-483a2bff9044)
 
 and you can see parse tree in below :
-![Uploading Parsetree.png…]()
-![Uploading Parsetree.png…]()
+![Parsetree](https://github.com/NSlayerN/CompilerDesign/assets/135645486/7c5f4547-5aa9-415c-8706-85221e54ebe9)
+
